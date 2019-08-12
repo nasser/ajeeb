@@ -34,7 +34,7 @@ Not yet published.
 
 ### THREE.js, Cannon.js, Blender Integration
 
-For 3D games Ajeeb currently uses on [THREE.js](https://threejs.org/) for graphics and [Cannon.js](https://schteppe.github.io/cannon.js/) for physics. It supports a [Blender](https://www.blender.org/)-based workflow that is integrated into the Entity Component System where Blender plays the role of both the modeling package and the level editor.
+For 3D games Ajeeb currently uses [THREE.js](https://threejs.org/) for graphics and [Cannon.js](https://schteppe.github.io/cannon.js/) for physics. It supports a [Blender](https://www.blender.org/)-based workflow that is integrated into the Entity Component System where Blender plays the role of both the modeling package and the level editor.
 
 Not yet published.
 
