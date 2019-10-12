@@ -26,11 +26,9 @@ A simple system to gather and store input from the environment at the start of e
 
 Not yet published.
 
-### Entity Component System
+### [Entity Component System](http://nas.sr/ajeeb-ecs/)
 
-Ajeeb includes a TypeScript port of [EnTT](https://github.com/skypjack/entt).
-
-Not yet published.
+Ajeeb includes a new Entity Component System that focuses on ease of use and performance. It is heavily inspired by [skypjack](https://github.com/skypjack)'s [EnTT](https://github.com/skypjack/entt).
 
 ### THREE.js, Cannon.js, Blender Integration
 
