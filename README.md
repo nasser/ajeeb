@@ -20,6 +20,9 @@ The engine as it exists is made up of these modules. They are not public for the
 
 The backbone of the engine, Ajeeb's coroutines are based on [ES6 Generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator) and inspired by [Unity](https://docs.unity3d.com/Manual/Coroutines.html). They get used everywhere from the main loop of the game to transitions and effects. Of all the abstractions and functionality, Ajeeb provides, coroutines are the most widely applicable.
 
+* [Documentation](http://nas.sr/ajeeb-coroutines/)
+* [Repository](https://github.com/nasser/ajeeb-coroutines)
+
 ### Input
 
 A simple system to gather and store input from the environment at the start of each frame. Ajeeb's input is designed as a pipeline so you can build up low-level events like key-presses into higher-level game specific events like "player is jumping".
@@ -29,6 +32,9 @@ Not yet published.
 ### [Entity Component System](http://nas.sr/ajeeb-ecs/)
 
 Ajeeb includes a new Entity Component System that focuses on ease of use and performance. It is heavily inspired by [skypjack](https://github.com/skypjack)'s [EnTT](https://github.com/skypjack/entt).
+
+* [Documentation](http://nas.sr/ajeeb-ecs/)
+* [Repository](https://github.com/nasser/ajeeb-ecs)
 
 ### THREE.js, Cannon.js, Blender Integration
 
