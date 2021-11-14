@@ -1,4 +1,4 @@
-import * as coro from '../coroutines'
+import * as coro from '../lib/coroutines'
 
 test('Schedule.add does not advance', () => {
     let value = 0

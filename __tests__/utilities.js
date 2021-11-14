@@ -1,4 +1,4 @@
-import * as coro from '../coroutines.js'
+import * as coro from '../lib/coroutines.js'
 
 test('frames', () => {
     let value = 0
