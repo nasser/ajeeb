@@ -99,3 +99,18 @@ test('coroutines are removable en masse', () => {
     sched.tick()
     expect(value).toBe(3)
 })
+
+test('Coroutine nested in one-frame coroutine fires', () => {
+    let value = 0
+    const sched = new coro.Schedule()
+    sched.add(function* () {
+        sched.add(function* () {
+            value = 1
+        })
+    })
+    expect(value).toBe(0)
+    sched.tick()
+    expect(value).toBe(0)
+    sched.tick()
+    expect(value).toBe(1)
+})
