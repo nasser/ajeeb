@@ -1,0 +1,22 @@
+{
+  "name": "ajeeb",
+  "version": "0.0.1",
+  "description": "Patterns for playful systems",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nasser/ajeeb.git"
+  },
+  "author": "Ramsey Nasser",
+  "license": "ACSL",
+  "bugs": {
+    "url": "https://github.com/nasser/ajeeb/issues"
+  },
+  "homepage": "https://ajeeb.games/",
+  "devDependencies": {
+    "jest": "26"
+  }
+}
