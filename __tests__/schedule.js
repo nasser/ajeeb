@@ -1,5 +1,23 @@
 import * as coro from '../lib/coroutines'
 
+test('foo', () => {
+    const sched = new coro.Schedule()
+    sched.add(function* () {
+        let t = 3
+        while(t--) yield
+        sched.add(function* () {
+            yield
+            console.log('other');
+        })
+    })
+    sched.add(function* () {
+        let t = 8
+        while(t--) yield
+    })
+    while(sched.size)
+        sched.tick()
+})
+
 test('Schedule.add does not advance', () => {
     let value = 0
     const sched = new coro.Schedule()
