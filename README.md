@@ -2,6 +2,8 @@
 
 Ajeeb is a wondrous open source game engine built on web technologies.
 
+**All work has moved to the monorepo on sourcehut: https://git.sr.ht/~nasser/ajeeb**
+
 ## Status
 
 This is an experiment. I am building an engine primarily for myself in search of a fluency and a sense of flow in game development that I've lacked. I expect there are a lot of bad ideas in here, and things that will never actually get done. I'm sharing it in the hope that some of this will be interesting or useful, but I can't make any guarantees about stability, maintenance, coherence, or soundness. Here be dragons! 🐉
